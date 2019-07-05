@@ -1,12 +1,7 @@
-use hello_world::Tweet;
+use hello_world::*;
 
 fn main() {
-    let tweet = Tweet {
-        username: String::from("horse_ebooks"),
-        content: String::from("of course, as you probably already know, people"),
-        reply: false,
-        retweet: false,
-    };
-
-    println!("content new tweet: {}", tweet.content);
+    let mut dolly: Sheep = Animal::new("Dolly");
+    dolly.talk();
+    dolly.shear();
 }
