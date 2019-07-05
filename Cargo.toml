@@ -1,0 +1,8 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+authors = ["thanhtu"]
+edition = "2018"
+
+[dependencies]
+regex = "1.1.7"
