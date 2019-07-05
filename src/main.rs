@@ -8,7 +8,5 @@ fn main() {
         retweet: false,
     };
 
-    println!("1 new tweet: {}", tweet.content);
-
-    println!("1 new tweet: {}", tweet.username);
+    println!("content new tweet: {}", tweet.content);
 }

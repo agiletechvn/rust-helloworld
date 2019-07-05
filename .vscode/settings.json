@@ -1,4 +1,10 @@
 {
   "rust.all_features": true,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "code-runner.customCommand": "cargo run",
+  "code-runner.executorMap": {
+    "rust": "cargo run"
+  },
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.saveAllFilesBeforeRun": true
 }
